@@ -1,0 +1,25 @@
+<picsimlab>
+  <version>0.9.3</version>
+  <board>Blue Pill</board>
+  <mcu>STM32F103C8T6</mcu>
+  <clock>8.000000</clock>
+  <pins>
+    <pin port="PA5" name="SCK" dir="O"/>
+    <pin port="PA7" name="MOSI" dir="O"/>
+    <pin port="PA4" name="CS" dir="O"/>
+    <pin port="PA1" name="DC" dir="O"/>
+    <pin port="PA0" name="RES" dir="O"/>
+    <pin port="PC13" name="LED" dir="O"/>
+  </pins>
+  <parts>
+    <part name="SSD1306" type="display" posx="400" posy="100">
+      <connection pin="SCK" port="PA5"/>
+      <connection pin="MOSI" port="PA7"/>
+      <connection pin="CS" port="PA4"/>
+      <connection pin="DC" port="PA1"/>
+      <connection pin="RES" port="PA0"/>
+      <connection pin="VCC" port="+3.3V"/>
+      <connection pin="GND" port="GND"/>
+    </part>
+  </parts>
+</picsimlab>
