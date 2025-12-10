@@ -1,0 +1,14 @@
+{
+  "version": "0.9.7",
+  "board": "stm32f103c8",
+  "firmware": "main.bin",
+  "autorun": true,
+  "windows": [
+    {
+      "name": "MainWindow",
+      "position": [100, 100],
+      "size": [800, 600]
+    }
+  ],
+  "comment": "Практика 5. Таймеры — Панасевич Александр Андреевич. Мигание PC13 по TIM2, изменение PSC через <<1 и >>1 по кнопке PA0 "
+}
